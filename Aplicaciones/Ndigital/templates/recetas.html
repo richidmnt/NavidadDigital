@@ -1,0 +1,154 @@
+
+{% extends './plantilla.html' %}
+{% load static %}
+{% block body %}
+
+<div class="container">
+    <div class="row mt-3 mb-3">
+        <div class="col-8">
+              <h2 style="font-weight: 700; color: red;">Recetas Navideñas</h2>
+              <p style="color:red">Sorprende a tus invitados con estos exquisitos platos, dulces y postres navideños</p>
+              
+        </div>
+        <div class="col-4" style="background-color:#FFE9BA ; color:#F82056; border-left: 5px solid #F82056;">
+            <h3>¡Lo mejor de la Navidad!</h3>
+            <BUtton>Seguir</BUtton>
+            <h3>Descubre <a href="">las novedades en nuestro facebook.</a> ¡También en <a href="">instagram!</a></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <div class="row">
+                <div class="col-2">
+                    <img src="{% static 'img/receta1.jpg' %}" alt="">
+                </div>
+                <div class="col-8">
+                    <a href="{% url 'receta1' %}"> <p style="color:blue">Arequipe Reyes</p></a>
+                    <p>Bebida láctea navideña típica de Venezuela</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta2.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <a href="{% url 'receta2' %}"><p style="color:blue">Arroz con gandules</p></a>
+                    <p style="margin-top: 0px;">El arroz con gandules es una combinación de arroz, gandules y cerdo cocinados en la misma olla con un sofrito al estilo puertorriqueño. Es el plato insignia de la gastronomía de Puerto Rico.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta3.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <a href=""><p style="color:blue">Canelones de Brandada</p></a>
+                    <p style="margin-top: 0px;">La brandada de bacalao es un plato típico de invierno en la costa mediterránea, aquí la encontrarás en forma de canelones acompañados de una estupenda mousse de escalibada</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta4.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <p style="color:blue">Cardo de Navidad</p>
+                    <p style="margin-top: 0px;">Un primer plato ligero ideal para estas fiestas de excesos, puedes añadirle almendras o piñones para darle un toque especial.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta5.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <p style="color:blue">Carlota navideña</p>
+                    <p style="margin-top: 0px;">Un delicioso postre de bizcocho, almendras y nata sencillo de preparar. Combina con cualquier menú de Navidad y se presta a diversas presentaciones.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta6.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <p style="color:blue">Castañas pilongas</p>
+                    <p style="margin-top: 0px;">Una forma distinta de preparar las castañas estas navidades: cocidas en un dulce caldo de canela y anís.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta7.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <p style="color:blue">Compota navideña</p>
+                    <p style="margin-top: 0px;">Una forma distinta de preparar las castañas estas navidades: cocidas en un dulce caldo de canela y anís.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta8.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <p style="color:blue">Ensalada de Navidad</p>
+                    <p style="margin-top: 0px;">Dale un toque colorido a la mesa estas navidades con una ensalada de escarola y granada, ideal para acompañar los platos de carne o pescado principales.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta9.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <p style="color:blue">Ensalada navideña</p>
+                    <p style="margin-top: 0px;">Esta completa ensalada bien puede valer de primer plato gracias a que incluye pollo, manzana, huevo y nueces.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <img src="{% static 'img/receta10.jpg' %}" alt="">
+                </div>
+                <div class="col-10">
+                    <p style="color:blue">Huevos escondidos</p>
+                    <p style="margin-top: 0px;">Una forma distinta de preparar las castañas estas navidades: cocidas en un dulce caldo de canela y anís.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4" style="border-left: 5px solid #84ca82;">
+            <h3 style="font-weight: 700;">El árbol de Navidad</h3>
+            <p>El árbol, abeto o pino de Navidad es, junto a los conocidos belenes o pesebres, uno de los elementos típicos de las navidades. El origen de esta tradición se sitúa en el norte de Europa, donde antiguamente sus habitantes celebraban el nacimiento de Frey, dios del Sol y la fertilidad en la mitología escandinava, adornando un árbol perenne en la fecha próxima a la Navidad cristiana. </p>
+            <br>
+            <h3 style="font-weight: 700;">Villancicos sobre el árbol de Navidad</h3>
+            <p>El árbol de Navidad no suele tener mucha participación en las canciones navideñas o villancicos, sin embargo, es el protagonista de un villancico dedicado en exclusiva a sus verdes y perennes hojas. El villancico cuenta con diversas traducciones, aquí están recogidas la versión en español, latín, inglés y alemán: </p>
+            <ol>
+                <li>El abeto (español)</li>
+                <li>Oh árbol de la Navidad (español)</li>
+                <li>O, abies (latín)</li>
+                <li>Xmas tree (inglés)</li>
+                <li>O Tannenbaum (alemán)</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row mt-3" >
+    
+        <div class="col-8" style="font-size: 20px;">
+            <h2 style="color: red;font-weight: 700;"> Y, además en el blog navideño</h2>
+            <ul>
+                <li><a href="">Concurso de Árboles 2021 (¡y van 17!)</a></li>
+                <li><a href="">Concurso de Árboles 2020 (¡y van 16!)</a></li>
+                <li><a href="">Resultados XV Concurso Árboles</a></li>
+              
+            </ul>
+          
+        </div>
+        <div class="col-4" style="border-left:5px solid #199EB8;">
+            <h3 style="font-weight: 700;">Enlaces patrocinados</h3>
+            <h3 style="font-weight: 700;">Destacados de Navidad</h3>
+            <ul>
+                <li><a href="">Docenas de villancicos en varios idiomas</a></li>
+                <li><a href="">La gramola: tu hilo musical navideño</a></li>
+                <li><a href="">Canciones de Navidad actuales</a></li>
+                <li><a href="">Belenes y pesebres enviados por los usuarios</a></li>
+                <li><a href="">Roscón de Reyes</a></li>
+            </ul>
+            
+        </div>
+    </div>
+   
+</div>
+{% endblock %}

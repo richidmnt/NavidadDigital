@@ -1,0 +1,95 @@
+
+{% extends './plantilla.html' %}
+{% load static %}
+{% block body %}
+
+<div class="container">
+    <div class="row mt-3 mb-3">
+        <div class="col-8">
+              <h2 style="font-weight: 700; color: red;">Belenes,Pesebres y Nacimientos</h2>
+              <p style="color:red">Comparte tu belén y contempla la Navidad en el mundo a través de sus pesebres</p>
+              
+        </div>
+        <div class="col-4" style="background-color:#FFE9BA ; color:#F82056; border-left: 5px solid #F82056;">
+            <h3>¡Lo mejor de la Navidad!</h3>
+            <BUtton>Seguir</BUtton>
+            <h3>Descubre <a href="">las novedades en nuestro facebook.</a> ¡También en <a href="">instagram!</a></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-10">
+            <div class="row">
+                <div class="col-4 text-center">
+                    <h6>Belén de Plaza de la Villa (Madrid, 2020)</h6>
+                    <img src="{% static 'img/belen1.webp' %}" width="100%" alt="">
+    
+                </div>
+                <div class="col-4">
+                    <h6>Belén de Plaza de la Villa (Madrid, 2020)</h6>
+                    <img src="{% static 'img/belen2.webp' %}"  width="100%">
+    
+                </div>
+                <div class="col-4">
+                    <h6>Belén de Plaza de la Villa (Madrid, 2020)</h6>
+                    <img src="{% static 'img/belen3.webp' %}" width="100%" alt="">
+    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h6>Belén de Plaza de la Villa (Madrid, 2020)</h6>
+                    <img src="{% static 'img/belen4.jpg' %}" width="100%" alt="">
+                </div>
+                <div class="col-4">
+                    <h6>Belén de Plaza de la Villa (Madrid, 2020)</h6>
+                    <img src="{% static 'img/belen5.webp' %}" width="100%" alt="">
+                </div>
+                <div class="col-4">
+                    <h6>Belén de Plaza de la Villa (Madrid, 2020)</h6>
+                    <img src="{% static 'img/belen6.jpg' %}" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="row mt-3" >
+    
+        <div class="col-4" style="font-size: 20px;">
+            <h2 style="color: red;font-weight: 700;"> Y, además en el blog navideño</h2>
+            <ul>
+                <li><a href="">Concurso de Árboles 2021 (¡y van 17!)</a></li>
+                <li><a href="">Concurso de Árboles 2020 (¡y van 16!)</a></li>
+                <li><a href="">Resultados XV Concurso Árboles</a></li>
+                <li><a href="">Belén de Sol (Madrid, 2016)</a></li>
+                <li><a href="">Resultados XV Concurso Árboles</a></li>
+              
+            </ul>
+          
+        </div>
+        <div class="col-4 text-justify" style="font-size: 14px;">
+            <h2 style="color: red;font-weight: 700;">Tu belén hogareño</h2>
+            <p>¿Has hecho un Belén o Nacimiento para disfrutar del espíritu navideño con tu familia? ¡Compártelo aquí!</p>
+            <p>Cuando no existían las redes sociales esta web era el único rincón donde se podía compartir fotos del pesebre de casa, de ahí que haya miles de fotos desde la década de los 90.</p>
+            <p>Mira los belenes recibidos en 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008 y, en la antigua galería, los de años anteriores. </p>
+            <img src="{% static 'img/belen7.jpg' %}" width="100%" alt="">
+            <h2 style="color: red;font-weight: 700;">El mundo en belenes</h2>
+            <img src="{% static 'img/belen8.jpg' %}"  width="100%">
+            <p>Belenario es un localizador de belenes mundial que muestra todos los belenes hogareños repartidos en un mapa del mundo.</p>
+            <p>Actualmente no se actualiza, aun así resulta muy interesante para conocer por dónde se extiende la tradición belenista en el mundo y conocer las particularidades de cada región a través de sus fotografías.</p>
+        </div>
+        <div class="col-4" style="border-left:5px solid #199EB8;">
+            <h3 style="font-weight: 700;">Enlaces patrocinados</h3>
+            <h3 style="font-weight: 700;">Destacados de Navidad</h3>
+            <ul>
+                <li><a href="">Docenas de villancicos en varios idiomas</a></li>
+                <li><a href="">La gramola: tu hilo musical navideño</a></li>
+                <li><a href="">Canciones de Navidad actuales</a></li>
+                <li><a href="">Belenes y pesebres enviados por los usuarios</a></li>
+                <li><a href="">Roscón de Reyes</a></li>
+            </ul>
+            
+        </div>
+    </div>
+   
+</div>
+{% endblock %}

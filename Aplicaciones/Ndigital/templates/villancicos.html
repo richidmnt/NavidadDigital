@@ -1,0 +1,120 @@
+{% extends "./plantilla.html" %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+              <h2 style="color: red; font-weight: 700;">Villancicos  y canciones de Navidad</h2>
+              <p style="color: red;">Coomparte tu árbol de Navidad y contempla miles de árboles de todo el mundo</p>  
+        </div>
+        <div class="col-4" style="background-color:#FFE9BA ; color:#F82056; border-left: 5px solid #F82056;">
+            <h3>¡Lo mejor de la Navidad!</h3>
+            <BUtton>Seguir</BUtton>
+            <h3>Descubre <a href="">las novedades en nuestro facebook.</a> ¡También en <a href="">instagram!</a></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+           <div class="row">
+            <div class="col">
+                <h2 style="color: blue; font-weight: 700;">Villancicos en español</h2>
+                <ul>
+                    <li><a href="{% url 'villancico1' %}">A Belén pastores </a></li>
+                    <li><a href="{% url 'villancico2' %}">A Belén, pastorcitos </a></li>
+                    <li><a href="">A la nanita nana  </a></li>
+                    <li><a href="{% url 'villancico3' %}">A las 12 de la noche  </a></li>
+                    <li><a href="{% url 'villancico4' %}">A las arandelas </a></li>
+                    <li><a href="{% url 'villancico5' %}">A las doce de la noche</a></li>
+                    <li><a href="">Adeste Fideles (Venid Fieles)  </a></li>
+                    <li><a href="">Al filo de media noche  </a></li>
+                    <li><a href="">Al mundo Paz  </a></li>
+                    <li><a href="">Alegría, alegría  </a></li>
+                    <li><a href="">Anunciando al Rey del cielo </a></li>
+                    <li><a href="">Arbolito </a></li>
+                    <li><a href="">A Belén pastores </a></li>
+                    <li><a href="">A Belén pastores </a></li>
+                    <li><a href="">A Belén pastores </a></li>
+                    <li><a href="">A Belén pastores </a></li>
+                    <li><a href="">Alegría, alegría </a></li>
+                    <li><a href="">Anunciando al Rey del cielo </a></li>
+                    <li><a href="">Arbolito</a></li>
+                    <li><a href="">Arre burro, arre </a></li>
+                    <li><a href="">Arrú ru ru </a></li>
+                    <li><a href="">Blanca Navidad </a></li>
+                    <li><a href="">Campana sobre campana </a></li>
+                    <li><a href="">Campanas de Navidad </a></li>
+                    <li><a href="">Campanilleros </a></li>
+                    <li><a href="">Canción para la Navidad </a></li>
+                    <li><a href="">Canta, ríe, bebe </a></li>
+                    <li><a href="">Cantad pastores</a></li>
+                    <li><a href="">Cantemos pastores</a></li>
+                    <li><a href="">Carrasclás</a></li>
+                    <li><a href="">Cascabel</a></li>
+                    <li><a href="">Cascabel, lindo cascabel</a></li>
+                    <li><a href="">Cinco para las doce </a></li>
+                    <li><a href="">Con la flor de Pascua </a></li>
+                    <li><a href="">Cumbia de Navidad </a></li>
+                    <li><a href="">De tu carita divina </a></li>
+
+    
+                </ul>
+            </div>
+            <div class="col">
+                <h2 style="color: red; font-weight: 700;">Versiones Modernas</h2>
+                <ul>
+                    <li><a href="">Discos de Navidad 2018 nuevos</a></li>
+                    <li><a href="">Discos de Navidad 2017</a></li>
+                    <li><a href="">Navidades a capella (2016)</a></li>
+                    <li><a href="">Christmas Memories (2016)</a></li>
+                    <li><a href="">Christmas Party (She &amp; Him, 2016)</a></li>
+                    <li><a href="">Concierto Coro Notre Dame</a></li>
+                    <li><a href="">Concierto de jazz Big Band Holidays (2015)</a></li>
+                    <li><a href="">Kylie Christmas (2015)</a></li>
+                    <li><a href="">Discos de Navidad gratis (Google Play, 2014)</a></li>
+                    <li><a href="">Concierto de Navidad (Banda de Cartago, 2014)</a></li>
+                </ul>
+                <br>
+                <br>
+                <h2 style="color: red; font-weight: 700;">Villancicos en Latin</h2>
+                <ul>
+                    <li><a href="">Adeste fideles </a></li>
+                    <li><a href="">Ave Maria </a></li>
+                    <li><a href="">O Sanctissima </a></li>
+                    <li><a href="">O, abies </a></li>
+                    <li><a href="">Puer natus in Bethlehem </a></li>
+                    <li><a href="">Veni, veni, Emmanuel  </a></li>  
+                </ul>
+                <br>
+                <h2 style="color: blue; font-weight: 700;">Villancicos en inglés</h2>
+                <ul>
+                    <li><a href="">Angels we have heard on high </a></li>
+                    <li><a href="">Away in a manger </a></li>
+                    <li><a href="">Deck the halls</a></li>
+                    <li><a href="">Drummer boy </a></li>
+                    <li><a href="">Happy Xmas </a></li>
+                    <li><a href="">Hark! The Herald angels sing </a></li>
+                    <li><a href="">Holly Jolly Christmas </a></li>
+                    <li><a href="">Holy night </a></li>
+                    <li><a href="">It's beginning to look a lot like Christmas </a></li>
+                    <li><a href="">Jingle Bell Rock </a></li>
+                </ul>
+            </div>
+           </div>
+        </div>
+        <div class="col-4" style="border-left: 5px solid #84ca82;">
+            <h3>El árbol de Navidad</h3>
+            <p>El árbol, abeto o pino de Navidad es, junto a los conocidos belenes o pesebres, uno de los elementos típicos de las navidades. El origen de esta tradición se sitúa en el norte de Europa, donde antiguamente sus habitantes celebraban el nacimiento de Frey, dios del Sol y la fertilidad en la mitología escandinava, adornando un árbol perenne en la fecha próxima a la Navidad cristiana. </p>
+            <br>
+            <h3>Villancicos sobre el árbol de Navidad</h3>
+            <p>El árbol de Navidad no suele tener mucha participación en las canciones navideñas o villancicos, sin embargo, es el protagonista de un villancico dedicado en exclusiva a sus verdes y perennes hojas. El villancico cuenta con diversas traducciones, aquí están recogidas la versión en español, latín, inglés y alemán: </p>
+            <ol>
+                <li>El abeto (español)</li>
+                <li>Oh árbol de la Navidad (español)</li>
+                <li>O, abies (latín)</li>
+                <li>Xmas tree (inglés)</li>
+                <li>O Tannenbaum (alemán)</li>
+            </ol>
+        </div>
+    </div>
+    
+</div>
+{% endblock %}
